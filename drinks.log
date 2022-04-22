@@ -1,0 +1,1003 @@
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Apr 22 16:26:56 2022] ***
+compiled with version: 9.3.0 on 24 January 2022 10:55:20
+os: Linux-5.13.0-40-generic #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256482
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55eee862de10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55eee862de10 pid: 114841 (default app)
+spawned uWSGI master process (pid: 114841)
+spawned uWSGI worker 1 (pid: 114843, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f0945886670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+spawned uWSGI worker 2 (pid: 114844, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f0945886670>
+spawned uWSGI worker 3 (pid: 114845, cores: 1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f0945886670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 4 (pid: 114846, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f0945886670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 5 (pid: 114847, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f0945886670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 6 (pid: 114848, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f0945886670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 7 (pid: 114849, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f0945886670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 8 (pid: 114850, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f0945886670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+48123799
+Miaoxing Ye
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+worker 1 killed successfully (pid: 114843)
+uWSGI worker 1 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 7 running workers
+worker 2 killed successfully (pid: 114844)
+uWSGI worker 2 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 6 running workers
+worker 3 killed successfully (pid: 114845)
+uWSGI worker 3 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 5 running workers
+worker 4 killed successfully (pid: 114846)
+uWSGI worker 4 cheaped.
+SIGINT/SIGTERM received...killing workers...
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Apr 22 16:32:06 2022] ***
+compiled with version: 9.3.0 on 24 January 2022 10:55:20
+os: Linux-5.13.0-40-generic #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256482
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x5591cc192e10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5591cc192e10 pid: 115236 (default app)
+spawned uWSGI master process (pid: 115236)
+spawned uWSGI worker 1 (pid: 115239, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f448813f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+spawned uWSGI worker 2 (pid: 115240, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f448813f670>
+spawned uWSGI worker 3 (pid: 115241, cores: 1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f448813f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 4 (pid: 115242, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f448813f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 5 (pid: 115243, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f448813f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 6 (pid: 115244, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f448813f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+spawned uWSGI worker 7 (pid: 115245, cores: 1)
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f448813f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 8 (pid: 115246, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f448813f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "GET /api/v3.0/get_group/32463151 HTTP/1.1" 200 None
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+worker 1 killed successfully (pid: 115239)
+uWSGI worker 1 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 7 running workers
+worker 2 killed successfully (pid: 115240)
+uWSGI worker 2 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 6 running workers
+worker 3 killed successfully (pid: 115241)
+uWSGI worker 3 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 5 running workers
+worker 4 killed successfully (pid: 115242)
+uWSGI worker 4 cheaped.
+SIGINT/SIGTERM received...killing workers...
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Apr 22 16:34:50 2022] ***
+compiled with version: 9.3.0 on 24 January 2022 10:55:20
+os: Linux-5.13.0-40-generic #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256482
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55d2c2975e10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55d2c2975e10 pid: 115410 (default app)
+spawned uWSGI master process (pid: 115410)
+spawned uWSGI worker 1 (pid: 115412, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fde1bab6670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+spawned uWSGI worker 2 (pid: 115413, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fde1bab6670>
+spawned uWSGI worker 3 (pid: 115414, cores: 1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fde1bab6670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 4 (pid: 115415, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fde1bab6670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 5 (pid: 115416, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fde1bab6670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 6 (pid: 115417, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fde1bab6670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 7 (pid: 115418, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fde1bab6670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 8 (pid: 115419, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fde1bab6670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "GET /api/v3.0/get_group/32463151 HTTP/1.1" 200 None
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Apr 22 16:35:08 2022] ***
+compiled with version: 9.3.0 on 24 January 2022 10:55:20
+os: Linux-5.13.0-40-generic #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256482
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x557f19b76e10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x557f19b76e10 pid: 115455 (default app)
+spawned uWSGI master process (pid: 115455)
+spawned uWSGI worker 1 (pid: 115457, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fa649476670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+spawned uWSGI worker 2 (pid: 115458, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fa649476670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 3 (pid: 115459, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fa649476670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 4 (pid: 115460, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fa649476670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 5 (pid: 115461, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fa649476670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 6 (pid: 115462, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fa649476670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+spawned uWSGI worker 7 (pid: 115463, cores: 1)
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fa649476670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 8 (pid: 115464, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fa649476670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "GET /api/v3.0/get_group/32463151 HTTP/1.1" 200 None
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Apr 22 16:35:31 2022] ***
+compiled with version: 9.3.0 on 24 January 2022 10:55:20
+os: Linux-5.13.0-40-generic #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256482
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55ba4a0bfe10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55ba4a0bfe10 pid: 115483 (default app)
+spawned uWSGI master process (pid: 115483)
+spawned uWSGI worker 1 (pid: 115485, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f60b821f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+spawned uWSGI worker 2 (pid: 115486, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f60b821f670>
+spawned uWSGI worker 3 (pid: 115487, cores: 1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f60b821f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 4 (pid: 115488, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f60b821f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 5 (pid: 115489, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f60b821f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 6 (pid: 115490, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f60b821f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+spawned uWSGI worker 7 (pid: 115491, cores: 1)
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f60b821f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 8 (pid: 115492, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f60b821f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "GET /api/v3.0/get_group/32463151 HTTP/1.1" 200 None
+48123799
+Miaoxing ye
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+worker 1 killed successfully (pid: 115485)
+uWSGI worker 1 cheaped.
+SIGINT/SIGTERM received...killing workers...
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Apr 22 16:36:07 2022] ***
+compiled with version: 9.3.0 on 24 January 2022 10:55:20
+os: Linux-5.13.0-40-generic #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256482
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x562b7c058e10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x562b7c058e10 pid: 115545 (default app)
+spawned uWSGI master process (pid: 115545)
+spawned uWSGI worker 1 (pid: 115548, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f3f779c9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+spawned uWSGI worker 2 (pid: 115549, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f3f779c9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 3 (pid: 115550, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f3f779c9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 4 (pid: 115551, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f3f779c9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 5 (pid: 115552, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f3f779c9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 6 (pid: 115553, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f3f779c9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+spawned uWSGI worker 7 (pid: 115554, cores: 1)
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f3f779c9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 8 (pid: 115555, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f3f779c9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+48123799
+Miaoxing ye
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+worker 1 killed successfully (pid: 115548)
+uWSGI worker 1 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 7 running workers
+worker 2 killed successfully (pid: 115549)
+uWSGI worker 2 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 6 running workers
+worker 3 killed successfully (pid: 115550)
+uWSGI worker 3 cheaped.
+SIGINT/SIGTERM received...killing workers...
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Apr 22 16:38:04 2022] ***
+compiled with version: 9.3.0 on 24 January 2022 10:55:20
+os: Linux-5.13.0-40-generic #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256482
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x56323b879e10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56323b879e10 pid: 115692 (default app)
+spawned uWSGI master process (pid: 115692)
+spawned uWSGI worker 1 (pid: 115694, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f33d24e1670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+spawned uWSGI worker 2 (pid: 115695, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f33d24e1670>
+Traceback (most recent call last):
+spawned uWSGI worker 3 (pid: 115696, cores: 1)
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f33d24e1670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 4 (pid: 115697, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f33d24e1670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 5 (pid: 115698, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f33d24e1670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 6 (pid: 115699, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f33d24e1670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 7 (pid: 115700, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f33d24e1670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 8 (pid: 115701, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7f33d24e1670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+48123799
+Miaoxing ye
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+worker 1 killed successfully (pid: 115694)
+uWSGI worker 1 cheaped.
+SIGINT/SIGTERM received...killing workers...
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Apr 22 16:38:38 2022] ***
+compiled with version: 9.3.0 on 24 January 2022 10:55:20
+os: Linux-5.13.0-40-generic #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256482
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x564229fa9e10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x564229fa9e10 pid: 115732 (default app)
+spawned uWSGI master process (pid: 115732)
+spawned uWSGI worker 1 (pid: 115734, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fb2584b9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+spawned uWSGI worker 2 (pid: 115735, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fb2584b9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 3 (pid: 115736, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fb2584b9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 4 (pid: 115737, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fb2584b9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 5 (pid: 115738, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fb2584b9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 6 (pid: 115739, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fb2584b9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+spawned uWSGI worker 7 (pid: 115740, cores: 1)
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fb2584b9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 8 (pid: 115741, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fb2584b9670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+48123799
+Miaoxing ye
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+worker 1 killed successfully (pid: 115734)
+uWSGI worker 1 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 7 running workers
+worker 2 killed successfully (pid: 115735)
+uWSGI worker 2 cheaped.
+SIGINT/SIGTERM received...killing workers...
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Fri Apr 22 16:39:50 2022] ***
+compiled with version: 9.3.0 on 24 January 2022 10:55:20
+os: Linux-5.13.0-40-generic #45~20.04.1-Ubuntu SMP Mon Apr 4 09:38:31 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256482
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x560914bc3e10
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x560914bc3e10 pid: 115922 (default app)
+spawned uWSGI master process (pid: 115922)
+spawned uWSGI worker 1 (pid: 115924, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fdd0f77f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+spawned uWSGI worker 2 (pid: 115925, cores: 1)
+spawned uWSGI worker 3 (pid: 115926, cores: 1)
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fdd0f77f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fdd0f77f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 4 (pid: 115927, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fdd0f77f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 5 (pid: 115928, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fdd0f77f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 6 (pid: 115929, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fdd0f77f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 7 (pid: 115930, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fdd0f77f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+spawned uWSGI worker 8 (pid: 115931, cores: 1)
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+Exception ignored in: <function _after_at_fork_child_reinit_locks at 0x7fdd0f77f670>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/logging/__init__.py", line 264, in _after_at_fork_child_reinit_locks
+    _releaseLock()  # Acquired by os.register_at_fork(before=.
+  File "/usr/lib/python3.8/logging/__init__.py", line 232, in _releaseLock
+    _lock.release()
+RuntimeError: cannot release un-acquired lock
+48123799
+Miaoxing ye
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1664980451
+48123799
+Miaoxing ye
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1664980918
+worker 1 killed successfully (pid: 115924)
+uWSGI worker 1 cheaped.
+48123799
+Miaoxing ye
+[busyness] 1s average busyness is at 0%, cheap one of 7 running workers
+worker 2 killed successfully (pid: 115925)
+uWSGI worker 2 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 6 running workers
+worker 3 killed successfully (pid: 115926)
+uWSGI worker 3 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 5 running workers
+worker 4 killed successfully (pid: 115927)
+uWSGI worker 4 cheaped.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "GET /api/v3.0/get_group/32463151 HTTP/1.1" 200 None
+[pid: 115930|app: 0|req: 4/14] 134.2.56.213 () {40 vars in 647 bytes} [Fri Apr 22 16:42:07 2022] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "GET /api/v3.0/get_group/32463151 HTTP/1.1" 200 None
+[pid: 115931|app: 0|req: 11/17] 134.2.251.2 () {40 vars in 752 bytes} [Fri Apr 22 16:45:31 2022] GET /favicon.ico => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)

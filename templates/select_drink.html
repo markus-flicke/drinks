@@ -1,0 +1,19 @@
+{% block header %}
+<style>
+    img {
+        width:40vw;
+    }
+    div {
+        float: left;
+    }
+</style>
+
+{% endblock %}
+{% block content %}
+{% for filename in drink_image_filenames %}
+    <div>
+        <h2>{{ filename.split('_')[0] }}: {{ filename[:-4].split('_')[1] }}€</h2>
+       <a href="/pay/{{ filename }}"><img src="{{ static_autoversion(filename) }}"></a>
+    </div>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,10 @@
+{% block head %}
+<style>
+    a {
+        font-size: 10vw;
+    }
+</style>
+{% endblock %}
+{% for user in users %}
+    <a href="/set_user/{{ user[0] }}/{{ user[1] }}">{{ user[1] }}</a> <br>
+{% endfor %}
