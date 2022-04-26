@@ -1,2 +1,4 @@
 secrets
 secrets.py
+*.pkl
+__pycache__
