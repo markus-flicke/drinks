@@ -1,19 +1,31 @@
 {% block header %}
 <style>
     img {
-        width:40vw;
+        width: 100%;
     }
-    div {
-        float: left;
+    .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    }
+    h2 {
+        text-align:center;
+    }
+    .drink_item {
+        border-style: solid;
+        border-radius: 20px;
+        box-shadow: 2px 4px #888888;
     }
 </style>
 
 {% endblock %}
 {% block content %}
+<div class="container">
 {% for filename in drink_image_filenames %}
-    <div>
+    <div class="drink_item">
         <h2>{{ filename.split('_')[0] }}: {{ filename[:-4].split('_')[1] }}€</h2>
        <a href="/pay/{{ filename }}"><img src="{{ static_autoversion(filename) }}"></a>
     </div>
 {% endfor %}
+</div>
 {% endblock %}

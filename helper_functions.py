@@ -41,7 +41,7 @@ def getGroupMembers(group_id):
     s = Splitwise(CONSUMER_KEY, CONSUMER_SECRET, api_key=API_KEY)
     group = s.getGroup(group_id)
     members = group.getMembers()
-    return [(member.getId(), f"{member.getFirstName()} {member.getLastName()}") for member in members]
+    return sorted([(member.getId(), f"{member.getFirstName()}{(' ' + member.getLastName()) if member.getLastName() else ''}") for member in members], key = lambda x: x[1])
 
 
 if __name__=='__main__':
