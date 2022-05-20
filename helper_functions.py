@@ -11,6 +11,16 @@ def add_expense(amount, user_id, description, group_id):
 
     example: add_expense(15, 48123799, "coke", 32463151)
     """
+    payer_id = user_id
+    payee_id = MARKUS_USER_ID
+
+    amount = float(amount)
+
+    if amount < 0:
+        amount = amount * -1
+        payee_id = payer_id
+        payer_id = MARKUS_USER_ID
+
     cost = str(float(amount))
     
     s = Splitwise(CONSUMER_KEY, CONSUMER_SECRET, api_key=API_KEY)
@@ -19,11 +29,11 @@ def add_expense(amount, user_id, description, group_id):
     expense.setCost(cost)
     expense.setDescription(description)
     user1 = ExpenseUser()
-    user1.setId(user_id)
+    user1.setId(payer_id)
     user1.setPaidShare('0')
     user1.setOwedShare(cost)
     user2 = ExpenseUser()
-    user2.setId(MARKUS_USER_ID)
+    user2.setId(payee_id)
     user2.setPaidShare(cost)
     user2.setOwedShare('0')
     expense.addUser(user1)

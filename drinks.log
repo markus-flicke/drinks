@@ -8174,3 +8174,808 @@ OSError: write error
 [busyness] 1s average busyness is at 0%, cheap one of 5 running workers
 worker 4 killed successfully (pid: 3881)
 uWSGI worker 4 cheaped.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "GET /api/v3.0/get_group/20539515 HTTP/1.1" 200 None
+[pid: 3885|app: 0|req: 2/9] 134.2.251.12 () {40 vars in 769 bytes} [Thu May 19 16:11:32 2022] GET /favicon.ico => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+39855006
+Katrin
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1704364557
+SIGINT/SIGTERM received...killing workers...
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu May 19 16:11:57 2022] ***
+compiled with version: 9.3.0 on 09 December 2021 12:49:45
+os: Linux-5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256439
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x5601defd0ea0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5601defd0ea0 pid: 9190 (default app)
+spawned uWSGI master process (pid: 9190)
+spawned uWSGI worker 1 (pid: 9192, cores: 1)
+spawned uWSGI worker 2 (pid: 9193, cores: 1)
+spawned uWSGI worker 3 (pid: 9194, cores: 1)
+spawned uWSGI worker 4 (pid: 9195, cores: 1)
+spawned uWSGI worker 5 (pid: 9196, cores: 1)
+spawned uWSGI worker 6 (pid: 9197, cores: 1)
+spawned uWSGI worker 7 (pid: 9198, cores: 1)
+spawned uWSGI worker 8 (pid: 9199, cores: 1)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1704364995
+39855006
+Katrin
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+worker 1 killed successfully (pid: 9192)
+uWSGI worker 1 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 7 running workers
+worker 2 killed successfully (pid: 9193)
+uWSGI worker 2 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 6 running workers
+worker 3 killed successfully (pid: 9194)
+uWSGI worker 3 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 5 running workers
+worker 4 killed successfully (pid: 9195)
+uWSGI worker 4 cheaped.
+SIGINT/SIGTERM received...killing workers...
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu May 19 16:16:56 2022] ***
+compiled with version: 9.3.0 on 09 December 2021 12:49:45
+os: Linux-5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256439
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55de25390ea0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55de25390ea0 pid: 9729 (default app)
+spawned uWSGI master process (pid: 9729)
+spawned uWSGI worker 1 (pid: 9731, cores: 1)
+spawned uWSGI worker 2 (pid: 9732, cores: 1)
+spawned uWSGI worker 3 (pid: 9733, cores: 1)
+spawned uWSGI worker 4 (pid: 9734, cores: 1)
+spawned uWSGI worker 5 (pid: 9735, cores: 1)
+spawned uWSGI worker 6 (pid: 9736, cores: 1)
+spawned uWSGI worker 7 (pid: 9737, cores: 1)
+spawned uWSGI worker 8 (pid: 9738, cores: 1)
+39855006
+Katrin
+39855006
+Katrin
+39855006
+Katrin
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+worker 1 killed successfully (pid: 9731)
+uWSGI worker 1 cheaped.
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "GET /api/v3.0/get_group/20539515 HTTP/1.1" 200 None
+39855006
+Katrin
+SIGINT/SIGTERM received...killing workers...
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu May 19 16:17:47 2022] ***
+compiled with version: 9.3.0 on 09 December 2021 12:49:45
+os: Linux-5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256439
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x5600dd514ea0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5600dd514ea0 pid: 9844 (default app)
+spawned uWSGI master process (pid: 9844)
+spawned uWSGI worker 1 (pid: 9846, cores: 1)
+spawned uWSGI worker 2 (pid: 9847, cores: 1)
+spawned uWSGI worker 3 (pid: 9848, cores: 1)
+spawned uWSGI worker 4 (pid: 9849, cores: 1)
+spawned uWSGI worker 5 (pid: 9850, cores: 1)
+spawned uWSGI worker 6 (pid: 9851, cores: 1)
+spawned uWSGI worker 7 (pid: 9852, cores: 1)
+spawned uWSGI worker 8 (pid: 9853, cores: 1)
+39855006
+Katrin
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+worker 1 killed successfully (pid: 9846)
+uWSGI worker 1 cheaped.
+SIGINT/SIGTERM received...killing workers...
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu May 19 16:18:23 2022] ***
+compiled with version: 9.3.0 on 09 December 2021 12:49:45
+os: Linux-5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256439
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55fe391b9ea0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55fe391b9ea0 pid: 9963 (default app)
+spawned uWSGI master process (pid: 9963)
+spawned uWSGI worker 1 (pid: 9966, cores: 1)
+spawned uWSGI worker 2 (pid: 9967, cores: 1)
+spawned uWSGI worker 3 (pid: 9968, cores: 1)
+spawned uWSGI worker 4 (pid: 9969, cores: 1)
+spawned uWSGI worker 5 (pid: 9970, cores: 1)
+spawned uWSGI worker 6 (pid: 9971, cores: 1)
+spawned uWSGI worker 7 (pid: 9972, cores: 1)
+spawned uWSGI worker 8 (pid: 9973, cores: 1)
+39855006
+Katrin
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+worker 1 killed successfully (pid: 9966)
+uWSGI worker 1 cheaped.
+SIGINT/SIGTERM received...killing workers...
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu May 19 16:18:59 2022] ***
+compiled with version: 9.3.0 on 09 December 2021 12:49:45
+os: Linux-5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256439
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55f5f000cea0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55f5f000cea0 pid: 10022 (default app)
+spawned uWSGI master process (pid: 10022)
+spawned uWSGI worker 1 (pid: 10024, cores: 1)
+spawned uWSGI worker 2 (pid: 10025, cores: 1)
+spawned uWSGI worker 3 (pid: 10026, cores: 1)
+spawned uWSGI worker 4 (pid: 10027, cores: 1)
+spawned uWSGI worker 5 (pid: 10028, cores: 1)
+spawned uWSGI worker 6 (pid: 10029, cores: 1)
+spawned uWSGI worker 7 (pid: 10030, cores: 1)
+spawned uWSGI worker 8 (pid: 10031, cores: 1)
+39855006
+Katrin
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1704372424
+39855006
+Katrin
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1704372737
+39855006
+Katrin
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+worker 1 killed successfully (pid: 10024)
+uWSGI worker 1 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 7 running workers
+worker 2 killed successfully (pid: 10025)
+uWSGI worker 2 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 6 running workers
+worker 3 killed successfully (pid: 10026)
+uWSGI worker 3 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 5 running workers
+worker 4 killed successfully (pid: 10027)
+uWSGI worker 4 cheaped.
+SIGINT/SIGTERM received...killing workers...
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu May 19 16:25:30 2022] ***
+compiled with version: 9.3.0 on 09 December 2021 12:49:45
+os: Linux-5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256439
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x56190eddcea0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x56190eddcea0 pid: 10487 (default app)
+spawned uWSGI master process (pid: 10487)
+spawned uWSGI worker 1 (pid: 10489, cores: 1)
+spawned uWSGI worker 2 (pid: 10490, cores: 1)
+spawned uWSGI worker 3 (pid: 10491, cores: 1)
+spawned uWSGI worker 4 (pid: 10492, cores: 1)
+spawned uWSGI worker 5 (pid: 10493, cores: 1)
+spawned uWSGI worker 6 (pid: 10494, cores: 1)
+spawned uWSGI worker 7 (pid: 10495, cores: 1)
+spawned uWSGI worker 8 (pid: 10496, cores: 1)
+39855006
+Katrin
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1704379668
+39855006
+Katrin
+39855006
+Katrin
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1704379954
+39855006
+Katrin
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+worker 1 killed successfully (pid: 10489)
+uWSGI worker 1 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 7 running workers
+worker 2 killed successfully (pid: 10490)
+uWSGI worker 2 cheaped.
+SIGINT/SIGTERM received...killing workers...
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu May 19 16:26:36 2022] ***
+compiled with version: 9.3.0 on 09 December 2021 12:49:45
+os: Linux-5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256439
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x564812c33ea0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x564812c33ea0 pid: 10591 (default app)
+spawned uWSGI master process (pid: 10591)
+spawned uWSGI worker 1 (pid: 10593, cores: 1)
+spawned uWSGI worker 2 (pid: 10594, cores: 1)
+spawned uWSGI worker 3 (pid: 10595, cores: 1)
+spawned uWSGI worker 4 (pid: 10596, cores: 1)
+spawned uWSGI worker 5 (pid: 10597, cores: 1)
+spawned uWSGI worker 6 (pid: 10598, cores: 1)
+spawned uWSGI worker 7 (pid: 10599, cores: 1)
+spawned uWSGI worker 8 (pid: 10600, cores: 1)
+39855006
+Katrin
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1704380909
+39855006
+Katrin
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu May 19 16:27:03 2022] ***
+compiled with version: 9.3.0 on 09 December 2021 12:49:45
+os: Linux-5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256439
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x559891bf8ea0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x559891bf8ea0 pid: 10723 (default app)
+spawned uWSGI master process (pid: 10723)
+spawned uWSGI worker 1 (pid: 10725, cores: 1)
+spawned uWSGI worker 2 (pid: 10726, cores: 1)
+spawned uWSGI worker 3 (pid: 10727, cores: 1)
+spawned uWSGI worker 4 (pid: 10728, cores: 1)
+spawned uWSGI worker 5 (pid: 10729, cores: 1)
+spawned uWSGI worker 6 (pid: 10730, cores: 1)
+spawned uWSGI worker 7 (pid: 10731, cores: 1)
+spawned uWSGI worker 8 (pid: 10732, cores: 1)
+39855006
+Katrin
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1704381456
+39855006
+Katrin
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+worker 1 killed successfully (pid: 10725)
+uWSGI worker 1 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 7 running workers
+worker 2 killed successfully (pid: 10726)
+uWSGI worker 2 cheaped.
+39855006
+Katrin
+SIGINT/SIGTERM received...killing workers...
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+worker 6 buried after 1 seconds
+worker 7 buried after 1 seconds
+worker 8 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: unix socket /home/scholar/drinks/drinks.sock removed.
+*** Starting uWSGI 2.0.20 (64bit) on [Thu May 19 16:28:21 2022] ***
+compiled with version: 9.3.0 on 09 December 2021 12:49:45
+os: Linux-5.13.0-41-generic #46~20.04.1-Ubuntu SMP Wed Apr 20 13:16:21 UTC 2022
+nodename: scholar-System-Product-Name
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 20
+current working directory: /home/scholar/drinks
+detected binary path: /home/scholar/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 256439
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+[busyness] settings: min=20%, max=70%, overload=1, multiplier=30, respawn penalty=2
+[busyness] backlog alert is set to 16 request(s), step is 2
+[busyness] backlog non-zero alert is set to 60 second(s)
+uwsgi socket 0 bound to UNIX address /home/scholar/drinks/drinks.sock fd 3
+Python version: 3.8.10 (default, Mar 15 2022, 12:22:08)  [GCC 9.4.0]
+Python main interpreter initialized at 0x563bb0eefea0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 50889576 bytes (49696 KB) for 500 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x563bb0eefea0 pid: 10923 (default app)
+spawned uWSGI master process (pid: 10923)
+spawned uWSGI worker 1 (pid: 10926, cores: 1)
+spawned uWSGI worker 2 (pid: 10927, cores: 1)
+spawned uWSGI worker 3 (pid: 10928, cores: 1)
+spawned uWSGI worker 4 (pid: 10929, cores: 1)
+spawned uWSGI worker 5 (pid: 10930, cores: 1)
+spawned uWSGI worker 6 (pid: 10931, cores: 1)
+spawned uWSGI worker 7 (pid: 10932, cores: 1)
+spawned uWSGI worker 8 (pid: 10933, cores: 1)
+[busyness] 1s average busyness is at 0%, cheap one of 8 running workers
+worker 1 killed successfully (pid: 10926)
+uWSGI worker 1 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 7 running workers
+worker 2 killed successfully (pid: 10927)
+uWSGI worker 2 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 6 running workers
+worker 3 killed successfully (pid: 10928)
+uWSGI worker 3 cheaped.
+[busyness] 1s average busyness is at 0%, cheap one of 5 running workers
+worker 4 killed successfully (pid: 10929)
+uWSGI worker 4 cheaped.
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 13054)
+Respawned uWSGI worker 6 (new pid: 13055)
+Respawned uWSGI worker 7 (new pid: 13056)
+Respawned uWSGI worker 8 (new pid: 13057)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 14622)
+Respawned uWSGI worker 6 (new pid: 14623)
+Respawned uWSGI worker 7 (new pid: 14624)
+Respawned uWSGI worker 8 (new pid: 14625)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 15122)
+Respawned uWSGI worker 6 (new pid: 15123)
+Respawned uWSGI worker 7 (new pid: 15124)
+Respawned uWSGI worker 8 (new pid: 15125)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 15575)
+Respawned uWSGI worker 6 (new pid: 15576)
+Respawned uWSGI worker 7 (new pid: 15577)
+Respawned uWSGI worker 8 (new pid: 15578)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "GET /api/v3.0/get_group/20539515 HTTP/1.1" 200 None
+[pid: 15578|app: 0|req: 2/3] 193.196.26.101 () {40 vars in 691 bytes} [Thu May 19 20:53:53 2022] GET /favicon.ico => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+42932056
+Zehao Yu
+[pid: 15577|app: 0|req: 2/10] 193.196.26.101 () {44 vars in 988 bytes} [Thu May 19 20:53:58 2022] GET /static/Redbull_1.84.png?ts=1650979105.3814104 => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 15578|app: 0|req: 8/11] 193.196.26.101 () {42 vars in 797 bytes} [Thu May 19 20:53:58 2022] GET /favicon.ico => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1704707346
+42932056
+Zehao Yu
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1704707917
+42932056
+Zehao Yu
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "GET /api/v3.0/get_group/20539515 HTTP/1.1" 200 None
+[pid: 15577|app: 0|req: 3/18] 193.196.26.101 () {40 vars in 691 bytes} [Thu May 19 21:20:29 2022] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+42932056
+Zehao Yu
+[pid: 15578|app: 0|req: 17/21] 193.196.26.101 () {42 vars in 797 bytes} [Thu May 19 21:20:42 2022] GET /favicon.ico => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1704735127
+42932056
+Zehao Yu
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 16148)
+Respawned uWSGI worker 6 (new pid: 16149)
+Respawned uWSGI worker 7 (new pid: 16150)
+Respawned uWSGI worker 8 (new pid: 16151)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 16635)
+Respawned uWSGI worker 6 (new pid: 16636)
+Respawned uWSGI worker 7 (new pid: 16637)
+Respawned uWSGI worker 8 (new pid: 16638)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 17119)
+Respawned uWSGI worker 6 (new pid: 17120)
+Respawned uWSGI worker 7 (new pid: 17121)
+Respawned uWSGI worker 8 (new pid: 17122)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 17674)
+Respawned uWSGI worker 6 (new pid: 17675)
+Respawned uWSGI worker 7 (new pid: 17676)
+Respawned uWSGI worker 8 (new pid: 17677)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 18202)
+Respawned uWSGI worker 6 (new pid: 18203)
+Respawned uWSGI worker 7 (new pid: 18204)
+Respawned uWSGI worker 8 (new pid: 18205)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 18683)
+Respawned uWSGI worker 6 (new pid: 18684)
+Respawned uWSGI worker 7 (new pid: 18685)
+Respawned uWSGI worker 8 (new pid: 18686)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 19178)
+Respawned uWSGI worker 6 (new pid: 19179)
+Respawned uWSGI worker 7 (new pid: 19180)
+Respawned uWSGI worker 8 (new pid: 19181)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 19691)
+Respawned uWSGI worker 6 (new pid: 19692)
+Respawned uWSGI worker 7 (new pid: 19693)
+Respawned uWSGI worker 8 (new pid: 19694)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 21063)
+Respawned uWSGI worker 6 (new pid: 21064)
+Respawned uWSGI worker 7 (new pid: 21065)
+Respawned uWSGI worker 8 (new pid: 21066)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 21644)
+Respawned uWSGI worker 6 (new pid: 21645)
+Respawned uWSGI worker 7 (new pid: 21646)
+Respawned uWSGI worker 8 (new pid: 21647)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 22251)
+Respawned uWSGI worker 6 (new pid: 22252)
+Respawned uWSGI worker 7 (new pid: 22253)
+Respawned uWSGI worker 8 (new pid: 22254)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 22894)
+Respawned uWSGI worker 6 (new pid: 22895)
+Respawned uWSGI worker 7 (new pid: 22896)
+Respawned uWSGI worker 8 (new pid: 22897)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 25820)
+Respawned uWSGI worker 6 (new pid: 25821)
+Respawned uWSGI worker 7 (new pid: 25822)
+Respawned uWSGI worker 8 (new pid: 25823)
+39855006
+Katrin
+Fri May 20 09:46:01 2022 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /favicon.ico (ip 134.2.56.104) !!!
+Fri May 20 09:46:01 2022 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /favicon.ico (134.2.56.104)
+OSError: write error
+[pid: 25823|app: 0|req: 22/29] 134.2.56.104 () {42 vars in 756 bytes} [Fri May 20 09:46:01 2022] GET /favicon.ico => generated 0 bytes in 15 msecs (HTTP/1.1 404) 2 headers in 0 bytes (0 switches on core 0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "GET /api/v3.0/get_group/20539515 HTTP/1.1" 200 None
+[pid: 25823|app: 0|req: 25/32] 134.2.86.109 () {40 vars in 789 bytes} [Fri May 20 10:13:29 2022] GET /favicon.ico => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+39855006
+Katrin
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1705233571
+39855006
+Katrin
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1705233620
+Fri May 20 10:13:41 2022 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /refund? (ip 134.2.86.109) !!!
+Fri May 20 10:13:41 2022 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /refund? (134.2.86.109)
+OSError: write error
+[pid: 25823|app: 0|req: 33/43] 134.2.86.109 () {40 vars in 789 bytes} [Fri May 20 10:21:12 2022] GET /favicon.ico => generated 232 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 28246)
+Respawned uWSGI worker 6 (new pid: 28247)
+Respawned uWSGI worker 7 (new pid: 28248)
+Respawned uWSGI worker 8 (new pid: 28249)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 29273)
+Respawned uWSGI worker 6 (new pid: 29274)
+Respawned uWSGI worker 7 (new pid: 29275)
+Respawned uWSGI worker 8 (new pid: 29276)
+39855006
+Katrin
+Fri May 20 11:37:04 2022 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /favicon.ico (ip 134.2.56.104) !!!
+Fri May 20 11:37:04 2022 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /favicon.ico (134.2.56.104)
+OSError: write error
+[pid: 29276|app: 0|req: 35/45] 134.2.56.104 () {42 vars in 756 bytes} [Fri May 20 11:37:04 2022] GET /favicon.ico => generated 0 bytes in 21 msecs (HTTP/1.1 404) 2 headers in 0 bytes (0 switches on core 0)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "GET /api/v3.0/get_group/20539515 HTTP/1.1" 200 None
+[pid: 29276|app: 0|req: 37/48] 134.2.86.109 () {40 vars in 789 bytes} [Fri May 20 12:03:14 2022] GET /favicon.ico => generated 232 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+39855006
+Katrin
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1705327575
+Fri May 20 12:03:17 2022 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /refund? (ip 134.2.86.109) !!!
+Fri May 20 12:03:17 2022 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /refund? (134.2.86.109)
+OSError: write error
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1705327914
+39855006
+Katrin
+39855006
+Katrin
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): secure.splitwise.com:443
+DEBUG:urllib3.connectionpool:https://secure.splitwise.com:443 "POST /api/v3.0/create_expense HTTP/1.1" 200 None
+1705328509
+Fri May 20 12:04:24 2022 - SIGPIPE: writing to a closed pipe/socket/fd (probably the client disconnected) on request /refund? (ip 134.2.86.109) !!!
+Fri May 20 12:04:24 2022 - uwsgi_response_writev_headers_and_body_do(): Broken pipe [core/writer.c line 306] during GET /refund? (134.2.86.109)
+OSError: write error
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 32538)
+Respawned uWSGI worker 6 (new pid: 32539)
+Respawned uWSGI worker 7 (new pid: 32540)
+Respawned uWSGI worker 8 (new pid: 32541)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 34740)
+Respawned uWSGI worker 6 (new pid: 34741)
+Respawned uWSGI worker 7 (new pid: 34742)
+Respawned uWSGI worker 8 (new pid: 34743)
+[pid: 34742|app: 0|req: 9/57] 134.2.86.109 () {40 vars in 789 bytes} [Fri May 20 14:03:49 2022] GET /favicon.ico => generated 232 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 36000)
+Respawned uWSGI worker 6 (new pid: 36001)
+Respawned uWSGI worker 7 (new pid: 36002)
+Respawned uWSGI worker 8 (new pid: 36003)
+worker 5 lifetime reached, it was running for 3601 second(s)
+worker 6 lifetime reached, it was running for 3601 second(s)
+worker 7 lifetime reached, it was running for 3601 second(s)
+worker 8 lifetime reached, it was running for 3601 second(s)
+Respawned uWSGI worker 5 (new pid: 37578)
+Respawned uWSGI worker 6 (new pid: 37579)
+Respawned uWSGI worker 7 (new pid: 37580)
+Respawned uWSGI worker 8 (new pid: 37581)

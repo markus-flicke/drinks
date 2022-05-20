@@ -1,4 +1,5 @@
-from flask import Flask, session, redirect, url_for, render_template
+
+from flask import Flask, session, redirect, url_for, render_template, flash
 from helper_functions import *
 from config import *
 from secrets import FLASK_SECRET_KEY
@@ -34,8 +35,14 @@ def set_user(user_id, username):
 def pay(filename):
     product_name, amount = filename[:-4].split('_')
     add_expense(amount, session['user_id'], description=product_name, group_id=SPLITWISE_GROUP_ID)
-    return render_template("success.html", filename=filename)
+    flash("Paid {}€ for {}".format(amount, product_name))
+    return redirect(url_for('index'))
 
+@app.route("/refund")
+def refund():
+    add_expense(-0.25, session['user_id'], description="Bottle refund", group_id=SPLITWISE_GROUP_ID)
+    flash("You have been refunded (25¢).")
+    return redirect(url_for('index'))
 
 
 if __name__=='__main__':

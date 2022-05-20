@@ -7,6 +7,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 5px;
+    max-width: 1000px;
     }
     h2 {
         text-align:center;
@@ -14,18 +15,57 @@
     .drink_item {
         border-style: solid;
         border-radius: 20px;
-        box-shadow: 2px 4px #888888;
+        /* box-shadow: 2px 4px #888888; */
+    }
+    #flashed-message{
+        grid-column-end: 3;
+        grid-column-start: 1;
+        text-align: center;
+        background: #63A9FF;
+        height: 7vh;
+        line-height: 7vh;
+        font-size: 3vh;
+        border-radius: 5px;
+        font-weight: bold;
+        margin:0;
+    }
+    #refund-button{
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 3vh;
+    }
+    #refund-button-form{
+        display: grid;
+        grid-column-end: 3;
+        grid-column-start: 1;
+        text-align: center;
+        background: #63A9FF;
+        height: 7vh;
+        border-radius: 5px;
     }
 </style>
 
 {% endblock %}
 {% block content %}
 <div class="container">
+{% with messages = get_flashed_messages() %}  
+    {% if messages %}  
+          {% for message in messages %}  
+               <p id="flashed-message">{{ message }}</p>  
+          {% endfor %}  
+    {% endif %}  
+ {% endwith %}  
+
 {% for filename in drink_image_filenames %}
     <div class="drink_item">
         <h2>{{ filename.split('_')[0] }}: {{ filename[:-4].split('_')[1] }}€</h2>
        <a href="/pay/{{ filename }}"><img src="{{ static_autoversion(filename) }}"></a>
     </div>
 {% endfor %}
+<form id="refund-button-form" action="/refund">
+    <button id="refund-button" type="submit">Refund empty bottle (25¢)</button>
+</form>
 </div>
 {% endblock %}
