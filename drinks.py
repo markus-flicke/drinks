@@ -1,4 +1,5 @@
 
+from email.policy import default
 from flask import Flask, session, redirect, url_for, render_template, flash
 from helper_functions import *
 from config import *
@@ -12,14 +13,17 @@ app.secret_key = FLASK_SECRET_KEY
 app.autoversion = True
 Autoversion(app)
 
-@app.route("/")
-def index():
+@app.route("/", defaults={'message': None})
+@app.route("/<string:message>")
+def index(message):
     if "username" in session:
         print(session['user_id'])
         print(session['username'])
     else:
         return redirect(url_for("select_name"))
-    return render_template("select_drink.html", drink_image_filenames=os.listdir('static'))
+    return render_template("select_drink.html", 
+    drink_image_filenames=os.listdir('static'), 
+    message=message)
 
 @app.route("/select_name")
 def select_name():
@@ -35,14 +39,12 @@ def set_user(user_id, username):
 def pay(filename):
     product_name, amount = filename[:-4].split('_')
     add_expense(amount, session['user_id'], description=product_name, group_id=SPLITWISE_GROUP_ID)
-    flash("Paid {}€ for {}".format(amount, product_name))
-    return redirect(url_for('index'))
+    return redirect(url_for('index', message = "Paid {}€ for {}".format(amount, product_name)))
 
 @app.route("/refund")
 def refund():
     add_expense(-0.25, session['user_id'], description="Bottle refund", group_id=SPLITWISE_GROUP_ID)
-    flash("You have been refunded (25¢).")
-    return redirect(url_for('index'))
+    return redirect(url_for('index', message="You have been refunded (25¢)."))
 
 
 if __name__=='__main__':

@@ -50,13 +50,10 @@
 {% endblock %}
 {% block content %}
 <div class="container">
-{% with messages = get_flashed_messages() %}  
-    {% if messages %}  
-          {% for message in messages %}  
-               <p id="flashed-message">{{ message }}</p>  
-          {% endfor %}  
-    {% endif %}  
- {% endwith %}  
+{% if message %}  
+    <p id="flashed-message">{{ message }}</p>  
+{% endif %}
+  
 
 {% for filename in drink_image_filenames %}
     <div class="drink_item">
