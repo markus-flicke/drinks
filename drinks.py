@@ -22,7 +22,8 @@ def index(message):
     else:
         return redirect(url_for("select_name"))
     return render_template("select_drink.html", 
-    drink_image_filenames=os.listdir('static'), 
+                            drink_image_static_paths=[os.path.join('drinks', path) for path in  os.listdir('static/drinks')], 
+                            snack_image_static_paths=[os.path.join('snacks', path) for path in  os.listdir('static/snacks')],
     message=message)
 
 @app.route("/select_name")
@@ -34,17 +35,19 @@ def set_user(user_id, username):
     session['username'] = username
     session['user_id'] = user_id
     return redirect(url_for('index'))
-
+import re
 @app.route("/pay/<filename>")
 def pay(filename):
-    product_name, amount = filename[:-4].split('_')
+    amount = re.findall("_([\w\W]+)\.", filename)[0]
+    product_name = filename.split('_')[0]
+
     add_expense(amount, session['user_id'], description=product_name, group_id=SPLITWISE_GROUP_ID)
     return redirect(url_for('index', message = "Paid {}€ for {}".format(amount, product_name)))
 
 @app.route("/refund")
 def refund():
     add_expense(-0.25, session['user_id'], description="Bottle refund", group_id=SPLITWISE_GROUP_ID)
-    return redirect(url_for('index', message="You have been refunded (25¢)."))
+    return index(message="You have been refunded (25¢).")
 
 
 if __name__=='__main__':

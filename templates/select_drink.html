@@ -17,7 +17,7 @@
         border-radius: 20px;
         /* box-shadow: 2px 4px #888888; */
     }
-    #flashed-message{
+    #message-top{
         grid-column-end: 3;
         grid-column-start: 1;
         text-align: center;
@@ -51,14 +51,20 @@
 {% block content %}
 <div class="container">
 {% if message %}  
-    <p id="flashed-message">{{ message }}</p>  
+    <p id="message-top">{{ message }}</p>  
 {% endif %}
   
 
-{% for filename in drink_image_filenames %}
+{% for path in drink_image_static_paths %}
     <div class="drink_item">
-        <h2>{{ filename.split('_')[0] }}: {{ filename[:-4].split('_')[1] }}€</h2>
-       <a href="/pay/{{ filename }}"><img src="{{ static_autoversion(filename) }}"></a>
+        <h2>{{ path.split('_')[0].split('/')[1] }}: {{ path[:-4].split('_')[1] }}€</h2>
+       <a href="/pay/{{ path.split('/')[1] }}"><img src="{{ static_autoversion(path) }}"></a>
+    </div>
+{% endfor %}
+{% for path in snack_image_static_paths %}
+    <div class="drink_item">
+        <h2>{{ path.split('_')[0].split('/')[1] }}: {{ path[:-4].split('_')[1] }}€</h2>
+       <a href="/pay/{{ path.split('/')[1] }}"><img src="{{ static_autoversion(path) }}"></a>
     </div>
 {% endfor %}
 <form id="refund-button-form" action="/refund">
